@@ -1,0 +1,144 @@
+@font-face {
+  font-family: Raleway;
+  src: url(Raleway-Bold.ttf);
+}
+
+body {
+  font-family: Raleway;
+  font-size: 15px;
+  background-color: #ADD8E6;
+  height: 100%;
+}
+
+header {
+  height: auto;
+  background-color: black;
+  display: flex;
+  justify-content: flex-start;
+}
+#imgCabecalho {
+  width: auto;
+  height: 50px;
+  margin-left: 10px;
+  padding-right: 50px;
+}
+
+#labelName {
+  text-align: center;
+  margin-top: 7px;
+  margin-right: 10px;
+}
+
+#botaoEnviar {
+  font-family: Raleway;
+  font-size: 15px;
+}
+#username {
+  font-family: Raleway;
+  font-size: 14px;
+  padding: 5px;
+}
+#formulario form {
+  color: #FFFFFF;
+  display: flex;
+  margin-top: 12px;
+  font-family: Raleway;
+  text-align: center;
+}
+#perfilUsuario {
+  text-align: center;
+
+}
+#containerUser {
+  width: auto;
+  text-align: center;
+}
+.divDepoisView {
+  display: inline-block;
+  background-color:#F0FFF0;
+  height: 900px;
+  width: 50%;
+
+}
+#perfil {
+  color: #FFFFFF;
+  padding: 10px;
+  text-align: center;
+  background-color: darkcyan;
+  width: auto;
+  margin-bottom: 10px;
+  font-size: 20px;
+  /* webkit-text-stroke-width: 2px; 
+  webkit-text-stroke-color: #000; */
+  text-shadow: #000 2px 3px 2px;
+}
+table {
+  font-family: Raleway;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 70px;
+  margin-top: 30px;
+  text-align: center;
+  border-radius: 10px;
+}
+th {
+  border: 1px solid black;
+}
+.th{
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+  background-color: cadetblue;
+} 
+
+.listadeTd{
+  border: 1px solid black;
+  padding: 10px;
+} 
+
+a {
+  text-align: right;
+  color: #ffb200;
+  text-decoration: none;
+}
+a:hover {
+  color: blue;
+}
+
+.listadetr{
+  border: 1px solid black;
+  padding: 10px;
+} 
+tbody:nth-child(2n+0) {
+  border: 1px solid black;
+  background-color: #dddddd;
+}
+
+#listaRepositorios li{
+  padding: 10px;
+}
+#repositorio a {
+  color: black;
+}
+#imgPerfil {
+  margin-top: 10px;
+  width: 300px;
+  height: auto;
+  border-radius: 200px;
+}
+#footer {
+  background: black;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height:60px;
+  text-align:center;
+  color: #FFFAFA;
+}
+#paragrafofooter {
+  padding: 5px;
+  margin-top: -5px;
+}
+#footer img {
+  width: 40px;
+}

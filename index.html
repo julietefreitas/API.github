@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>API Github</title>
+  <link rel = "stylesheet" href = "reset.css">
+  <link rel ="stylesheet" href = "style.css">
+  <script src= "apicontroller.js"defer></script>
+  <script src= "apimodel.js" defer></script>
+  <script src= "apiview.js" defer></script>
+  <link rel="shortcut icon" href="https://github.com/fluidicon.png" title="GitHub">
+</head>
+<body>
+  <header>
+    <img id = "imgCabecalho" src = "header.png">
+    <div id= "formulario">
+      <form>
+        <label for="fname" id = "labelName">User Name</label><br>
+        <input type="text" id="username" name="username" placeholder="Digite seu Usernick"><br>
+        <input type= "button" id="botaoEnviar" value="Pesquisar"  >
+      </form>
+  </header>
+    <section id = "perfilUsuario">
+      <div id = "containerUser">
+        <p id = "perfil"></p>
+        <img id ="imgPerfil" >
+        <p id = "repositorios"></p>
+        <table id = "tabelaGeral">
+        </table>
+      </div>
+    </section>
+  </div>
+</body>
+<div id = "footer">
+  <p id = "paragrafofooter"><img src = "header.png">GitHub</p>
+  <p>&copy 2020</p>
+</div>
+</html>
